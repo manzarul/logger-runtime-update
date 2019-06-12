@@ -1,1 +1,2 @@
-# logger-runtime-update
+# logger-runtime-enable 
+This sample will demostrate , how to update log level in a project.Most of the time on production either error or info logs are enable and when some errors occurs , we have to again change the logs level and need to do re-deployment. To avoid that we can change log level either run time or just setting an environment variable. This example will demostrate , how to enable it from en.
