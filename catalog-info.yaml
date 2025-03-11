@@ -1,5 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  name: first-tech-doc
   annotations:
     backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: manzarul
